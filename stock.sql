@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Feb 01, 2022 at 03:53 AM
+-- Generation Time: Feb 01, 2022 at 04:23 AM
 -- Server version: 10.4.17-MariaDB
 -- PHP Version: 7.4.13
 
@@ -254,7 +254,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `username`, `password`, `email`, `firstname`, `lastname`, `phone`, `gender`, `store`, `LoginStatus`, `LastUpdate`) VALUES
-(1, 'admin', '$2y$10$V3mxviNkOnXhFNxjBvVQ9uin5x8ZJTghypu8EoRv06DcQYitHqtMe', 'admin@admin.com', 'ปารมิน', 'สุภาพงษ์', '+66123456', 1, 'มม', 1, '2021-09-13 15:17:39');
+(1, 'admin', '$2y$10$3AmPKErSmU4f8QzH.ZbetutqGL1oS8OtQaY.Sm/RovYtEtFveFwC2', 'admin@admin.com', 'ปารมิน', 'สุภาพงษ์', '+66123456', 1, 'มม', 1, '2021-09-13 15:17:39');
 
 -- --------------------------------------------------------
 
@@ -379,13 +379,13 @@ ALTER TABLE `attribute_value`
 -- AUTO_INCREMENT for table `brands`
 --
 ALTER TABLE `brands`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
 
 --
 -- AUTO_INCREMENT for table `categories`
 --
 ALTER TABLE `categories`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
 -- AUTO_INCREMENT for table `company`
@@ -403,25 +403,25 @@ ALTER TABLE `groups`
 -- AUTO_INCREMENT for table `orders`
 --
 ALTER TABLE `orders`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=94;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=95;
 
 --
 -- AUTO_INCREMENT for table `orders_item`
 --
 ALTER TABLE `orders_item`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=642;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=643;
 
 --
 -- AUTO_INCREMENT for table `products`
 --
 ALTER TABLE `products`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=148;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=149;
 
 --
 -- AUTO_INCREMENT for table `stores`
 --
 ALTER TABLE `stores`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- AUTO_INCREMENT for table `tb_test`
